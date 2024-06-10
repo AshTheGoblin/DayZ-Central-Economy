@@ -1,0 +1,10 @@
+            - name: XML Lint
+  uses: ChristophWurst/xmllint-action@v1.2.1
+  with:
+    # The source (.xml) file
+    xml-file: 
+    # The schema file (.xsd or other, according to schema type)
+    xml-schema-file: 
+    # the type of schema to use (schema, relaxng, schematron; default is schema)
+    xml-schema-type: # optional, default is schema
+          
